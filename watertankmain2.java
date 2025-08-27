@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 	public class watertankmain2 {
 	    public static void main(String[] args) {
 	    	
-waterTAnk_abs tank =null;
+	    	waterTAnk_abs tank  =new  Buildingtank_Hometank();
 
 	        // Step 1: Choose tank type
 	        String[] tankOptions = {"Home Tank", "Building Tank","Exit"};
